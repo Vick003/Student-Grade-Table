@@ -1,0 +1,48 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Grades</title>
+    <link type="text/css" rel="stylesheet" href="dist/css/bootstrap.css">
+    <!--<link type="text/css" rel="stylesheet" href="main.css">-->
+    </head>
+    <body>
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <table id = "grades-table" class="table table-striped">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Grade</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr id="target-row">
+
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" id="fname" placeholder="First Name">
+                </div>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" id="lname" placeholder="Last Name"></div>
+            </td>
+            <td><input type="text" class="form-control" id="grade" placeholder="Grade"></td>
+            <td><button id="btn-add-student" class="btn btn-success">+</button></td>
+        </tr>
+        </tfoot>
+        </table>
+    </div>
+    
+    <div id = 'avg' class="col-md-2">
+        Class Average:
+        
+    </div>
+      <script src = "http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src = "thisjavascript.js"></script>
+   </body>
+   </html>
